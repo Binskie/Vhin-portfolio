@@ -1,0 +1,323 @@
+
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a0f0d">
+  <meta name="description" content="Vhin — IT support, workplace automation, database management, and application development.">
+  <title>Vhin | Systems & Automation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="topbar">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Vhin home">
+        <span class="brand-icon">&gt;_</span> VHIN<span class="dim">.exe</span>
+      </a>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Stack</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a class="nav-contact" href="#contact">Contact <span>↗</span></a>
+      </div>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" type="button"
+                aria-label="Switch to light mode" title="Switch theme">
+          <span id="themeIcon" aria-hidden="true">☼</span>
+        </button>
+        <button class="menu-toggle" id="menuToggle" type="button"
+                aria-expanded="false" aria-controls="navLinks"
+                aria-label="Open navigation">
+          <span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="live-dot"></span> IT SUPPORT / AUTOMATION / DEVELOPMENT</div>
+
+        <p class="terminal-line">vhin@workstation:~$ whoami</p>
+        <h1>I turn repetitive work into <span>systems that work.</span></h1>
+
+        <p class="hero-description">
+          I'm an IT professional who builds practical tools to simplify
+          workflows, organize information, and solve everyday operational problems.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↘</span></a>
+          <a class="button button-secondary" href="#contact">Get in touch <span>↗</span></a>
+        </div>
+
+        <div class="hero-meta">
+          <span><i></i> Based in the Philippines</span>
+          <span>Independent builder mindset</span>
+        </div>
+      </div>
+
+      <div class="system-panel" aria-label="Illustration of a workflow automation system">
+        <div class="panel-header">
+          <div class="window-dots"><i></i><i></i><i></i></div>
+          <span>workflow_map.sys</span>
+          <span class="panel-state">ACTIVE</span>
+        </div>
+
+        <div class="panel-body">
+          <div class="panel-label">// SYSTEM OVERVIEW</div>
+
+          <div class="flow-node">
+            <span class="node-icon">01</span>
+            <div><strong>Input</strong><small>Manual tasks & raw data</small></div>
+            <span class="node-type">SOURCE</span>
+          </div>
+          <div class="flow-connector"><span></span></div>
+
+          <div class="flow-node flow-node-active">
+            <span class="node-icon">02</span>
+            <div><strong>Process</strong><small>Rules, logic & automation</small></div>
+            <span class="node-type">ENGINE</span>
+          </div>
+          <div class="flow-connector"><span></span></div>
+
+          <div class="flow-node">
+            <span class="node-icon">03</span>
+            <div><strong>Database</strong><small>Structured, usable records</small></div>
+            <span class="node-type">STORAGE</span>
+          </div>
+          <div class="flow-connector"><span></span></div>
+
+          <div class="flow-node flow-node-output">
+            <span class="node-icon">04</span>
+            <div><strong>Outcome</strong><small>Less repetition. Better visibility.</small></div>
+            <span class="node-type">RESULT</span>
+          </div>
+
+          <div class="panel-footer">
+            <span><i class="live-dot"></i> Workflow thinking</span>
+            <span>BUILD / IMPROVE / REPEAT</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-index"><span>01</span> INTRODUCTION <span class="index-line"></span> SCROLL TO EXPLORE ↓</div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading">
+        <p class="section-kicker">01 / ABOUT</p>
+        <h2>More than keeping systems running.<br><span>I make them work better.</span></h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-copy">
+          <p>
+            My work combines IT support, troubleshooting, and internal
+            application development. I help resolve technical issues and
+            build tools that make daily tasks more organized and efficient.
+          </p>
+          <p>
+            I work with technologies including VB.NET, C#, MySQL, SQLyog,
+            HTML, CSS, and JavaScript. I enjoy turning a repetitive process
+            into something structured, trackable, and easier to manage.
+          </p>
+        </div>
+
+        <div class="principles">
+          <div class="principle"><span>01</span><div><strong>Understand the problem</strong><p>Learn how the process actually works before automating it.</p></div></div>
+          <div class="principle"><span>02</span><div><strong>Build something useful</strong><p>Focus on practical tools instead of unnecessary complexity.</p></div></div>
+          <div class="principle"><span>03</span><div><strong>Keep improving</strong><p>Test, troubleshoot, learn, and refine the solution.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">02 / TECHNICAL STACK</p>
+          <h2>The tools behind<br><span>the solutions.</span></h2>
+        </div>
+
+        <div class="stack-grid">
+          <article class="stack-card">
+            <span class="stack-index">STACK_01</span><span class="stack-symbol">C#</span>
+            <h3>Application Development</h3>
+            <p>C#, VB.NET, ASP.NET Core MVC, Razor</p>
+          </article>
+          <article class="stack-card">
+            <span class="stack-index">STACK_02</span><span class="stack-symbol">DB</span>
+            <h3>Data & Databases</h3>
+            <p>MySQL, SQLyog, SQL queries, data organization</p>
+          </article>
+          <article class="stack-card">
+            <span class="stack-index">STACK_03</span><span class="stack-symbol">&lt;/&gt;</span>
+            <h3>Web Technologies</h3>
+            <p>HTML, CSS, JavaScript, responsive interfaces</p>
+          </article>
+          <article class="stack-card">
+            <span class="stack-index">STACK_04</span><span class="stack-symbol">IT</span>
+            <h3>IT Operations</h3>
+            <p>Technical troubleshooting, user support, issue investigation</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="experience">
+      <div class="section-heading">
+        <p class="section-kicker">03 / EXPERIENCE</p>
+        <h2>Support the systems.<br><span>Improve the workflow.</span></h2>
+      </div>
+
+      <div class="experience-layout">
+        <div class="experience-intro">
+          <span class="terminal-tag">ROLE_PROFILE.md</span>
+          <h3>IT Support & Programming</h3>
+          <p>
+            My professional experience combines IT support, troubleshooting,
+            programming, and application development to support business
+            operations and improve everyday workflows.
+          </p>
+          <div class="tag-row">
+            <span>IT Support</span>
+            <span>Programming</span>
+            <span>Automation</span>
+          </div>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="timeline-number">01</span>
+            <div>
+              <h3>IT Support — NT PHILIPPINES INC.</h3>
+              <p class="experience-date">April 1, 2025 – Present</p>
+              <p>
+                Provide IT support by troubleshooting hardware, software,
+                application, and connectivity issues to help maintain smooth
+                daily operations. Develop and maintain internal business
+                applications that automate repetitive tasks, including Product
+                Monitoring and Inventory Management, Tool Request Management,
+                and Parts Request Management. Work with VB.NET, C#, SQL,
+                and MySQL databases to organize records, improve information
+                tracking, and streamline existing workflows.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <span class="timeline-number">02</span>
+            <div>
+              <h3>IT / Programmer — OM Manufacturing</h3>
+              <p class="experience-date">September 2024 – March 2025</p>
+                <p>
+                  Supported day-to-day IT operations and contributed to programming
+                  and application development to help improve business workflows.
+                  Worked with VB.NET, SQL, and database-driven applications to
+                  organize records, process information, and support operational
+                  requirements. Assisted in troubleshooting technical issues and
+                  maintaining application functionality to help keep business
+                  processes running smoothly.
+                </p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <p class="edit-note">
+        Company systems, screenshots, and proprietary information are
+        intentionally excluded to respect confidentiality.
+      </p>
+    </section>
+
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <div class="section-heading project-heading">
+          <div><p class="section-kicker">04 / SELECTED PROJECTS</p>
+            <h2>Built to solve<br><span>real problems.</span></h2></div>
+          <p class="heading-note">Practical systems for tracking, requesting, and managing information.</p>
+        </div>
+
+        <article class="featured-project">
+          <div class="project-visual dental-visual">
+            <div class="visual-top"><span>PROJECT / 001</span><span>WEB APP</span></div>
+            <div class="dental-screen">
+              <div class="screen-sidebar"><b>DC.</b><i></i><i></i><i></i><i></i></div>
+              <div class="screen-main">
+                <small>CLINIC OVERVIEW</small><strong>Dental Management</strong>
+                <div class="screen-stats"><i></i><i></i><i></i></div>
+                <div class="screen-table"><i></i><i></i><i></i><i></i></div>
+              </div>
+            </div>
+            <span class="visual-caption">PATIENTS / APPOINTMENTS / TREATMENTS</span>
+          </div>
+          <div class="featured-copy">
+            <p class="project-label">01 — WEB APPLICATION</p>
+            <h3>Dental Clinic Management App</h3>
+            <p>
+              A clinic-focused web application designed to organize patient
+              records, appointments, dental history, and treatment workflows.
+              Built to reduce reliance on repetitive manual paperwork.
+            </p>
+            <div class="tag-row"><span>C#</span><span>ASP.NET Core MVC</span><span>MySQL</span><span>EF Core</span></div>
+            <p class="project-status"><span class="status-square"></span> Personal project · Development and deployment status should be updated</p>
+          </div>
+        </article>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-card-top"><span>PROJECT / 002</span><span>INTERNAL TOOL</span></div>
+            <div class="project-icon">INV<span>↗</span></div>
+            <h3>Product Monitoring & Inventory</h3>
+            <p>A tool for monitoring products and inventory information, helping make records easier to access and maintain.</p>
+            <div class="tag-row"><span>VB.NET</span><span>SQL</span><span>MySQL</span></div>
+          </article>
+          <article class="project-card">
+            <div class="project-card-top"><span>PROJECT / 003</span><span>WORKFLOW TOOL</span></div>
+            <div class="project-icon">REQ<span>↗</span></div>
+            <h3>Tool & Parts Request Management</h3>
+            <p>A request workflow for organizing tool and parts requests and improving visibility into operational records.</p>
+            <div class="tag-row"><span>VB.NET</span><span>Database</span><span>Automation</span></div>
+          </article>
+        </div>
+
+        <p class="edit-note">Project descriptions are summaries. Add real screenshots, repository links, and verified outcomes where available. Do not publish private company data.</p>
+      </div>
+    </section>
+
+    <section class="section container contact-section" id="contact">
+      <div class="contact-panel">
+        <div>
+          <p class="section-kicker">05 / ESTABLISH CONNECTION</p>
+          <h2>Have a process<br>worth <span>improving?</span></h2>
+          <p>I'm interested in practical software, automation, and opportunities to build useful systems.</p>
+        </div>
+        <div class="contact-actions">
+          <!-- Replace the example address with your real email. -->
+          <a class="button button-primary" href="mailto:hanapi.vhin@gmail.com">Email me <span>↗</span></a>
+          <span class="contact-hint">Open to professional conversations.</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="brand footer-brand" href="#home"><span class="brand-icon">&gt;_</span> VHIN<span class="dim">.exe</span></a>
+      <span class="footer-note">Designed with logic. Built with purpose.</span>
+      <span class="footer-copy">© <span id="year"></span> VHIN</span>
+    </div>
+  </footer>
+</body>
+</html>
